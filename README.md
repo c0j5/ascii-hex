@@ -1,9 +1,10 @@
 # ascii-hex
 
 ## Description
-This program converts hexadecimal bytes from `inputBuf` into their ASCII representation and prints them to the screen. Two versions are included:
-1. **Main Version**: Direct conversion in main loop
-2. **Extra Credit Version**: Uses a dedicated subroutine for nibble-to-ASCII conversion
+This program converts hexadecimal bytes from `inputBuf` into their ASCII representation and prints them to the screen.
+
+**Main Version**: Direct conversion in main loop
+
 
 ## Requirements
 - Linux environment
