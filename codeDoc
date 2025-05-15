@@ -1,0 +1,32 @@
+Code Documentation
+Data Section:
+
+inputBuf: Contains the hexadecimal bytes to be converted
+
+hexDigits: Lookup table for converting nibbles to ASCII
+
+newline: Single newline character
+
+BSS Section:
+
+outputBuf: Reserve space for the converted ASCII output
+
+Main Program Flow:
+
+Initialize pointers and counters
+
+Loop through each byte in input buffer
+
+For each byte:
+
+Extract high nibble, convert to ASCII, store
+
+Extract low nibble, convert to ASCII, store
+
+Add space separator between bytes (except last one)
+
+Add newline at end of output
+
+Write output to stdout
+
+Exit cleanly
